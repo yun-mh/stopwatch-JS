@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(9, 132, 227);
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.stopwatch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 200px;
+    margin: -100px 0 0 -250px;
+}
+
+.stopwatch__display {
+    height: 140px;
+    border-radius: 20px;
+    line-height: 140px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    color: #dfe6e9;
+}
+
+.stopwatch__display-regular {
+    display: inline-block;
+    font-size: 65px;
+    width: 86px;
+}
+
+.stopwatch__display-divide {
+    display: inline-block;
+    font-size: 65px;
+}
+
+.stopwatch__display-small {
+    display: inline-block;
+    font-size: 40px;
+    width: 51px;
+}
+
+.stopwatch__controller {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.button {
+    width: 40%;
+    height: 40px;
+    margin: 0 20px 0 20px;
+    border-radius: 20px;
+    font-size: 26px;
+    border: none;
+    color: #2d3436;
+    font-weight: bold;
+    font-family: inherit;
+    letter-spacing: 5px;
+    vertical-align: middle;
+}
+.button:focus {
+    outline: none;
+}
+
+.button-start {
+    background-color: #81ecec;
+}
+.button-start:hover {
+    background-color: #00cec9;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.button-start:active {
+    position: relative;
+    top: 2px;
+}
+
+.button-reset {
+    background-color: #ffeaa7;
+}
+.button-reset:hover {
+    background-color: #fdcb6e;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.button-reset:active {
+    position: relative;
+    top: 2px;
+}
+
+.button-stop {
+    background-color: #ea5550;
+    display: none;
+}
+.button-stop:hover {
+    background-color: #d63031;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.button-stop:active {
+    position: relative;
+    top: 2px;
+}
