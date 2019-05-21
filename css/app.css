@@ -9,7 +9,7 @@ body {
     top: 50%;
     left: 50%;
     width: 500px;
-    height: 200px;
+    height: 220px;
     margin: -100px 0 0 -250px;
 }
 
@@ -101,4 +101,10 @@ body {
 .button-stop:active {
     position: relative;
     top: 2px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #dfe6e9;
+    text-align: right;
 }
